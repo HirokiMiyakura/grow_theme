@@ -754,7 +754,7 @@ footer {
         margin-top: 4em;
         & > div {
             padding: 1em;
-            h2 {
+            .sectionTitle {
                 font-size: 32px;
             }
             h3 {
@@ -795,10 +795,10 @@ footer {
                 }
                 p.more {
                     display: block;
-                    width: 240px;
+                    width: 100%;
                     color: #fff;
-                    padding: 1em;
-                    border-radius: 1em;
+                    padding: 0;
+                    border-radius: 12px 0;
                     letter-spacing: .2em;
                     text-align: center;
                 }
@@ -810,6 +810,13 @@ footer {
         display: block;
         &__item {
             width: 100%;
+        }
+    }
+
+    .to_contact {
+        font-size: 18px;
+        a {
+            padding: 12px 0;
         }
     }
 
@@ -832,10 +839,10 @@ footer {
         height: auto;
     }
 
-    .wpcf7-form {
-        input {
-            width: auto;
-        }
+    .wpcf7-form .wpcf7-submit {
+        width: 100%;
+        font-size: 18px;
+        padding: 12px 0;
     }
 
     footer {
