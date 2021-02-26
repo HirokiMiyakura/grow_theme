@@ -47,8 +47,8 @@ get_header(); ?>
     </tr>
     <tr>
         <td>※ 初回のみ</td>
-        <td><a href="<?php echo home_url(); ?>/contact/">申し込み</a></td>
-        <td><a href="<?php echo home_url(); ?>/contact/">申し込み</a></td>
+        <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
+        <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
         <td>※ 12月28日に1月分と一緒に請求</td>
     </tr>
     </table>
@@ -61,12 +61,12 @@ get_header(); ?>
         <tr>
             <th>週1コース</th>
             <td class="popular">¥6,600</td>
-            <td><a href="<?php echo home_url(); ?>/contact/">申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
         </tr>
         <tr>
             <th>フリークラス</th>
             <td>¥11,000</td>
-            <td><a href="<?php echo home_url(); ?>/contact/">申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
         </tr>
         <tr>
             <th>年会費</th>
@@ -83,19 +83,15 @@ get_header(); ?>
     <div class="campaign-container">
         <div class="campaign-container__item">
             <p class="tokuten">特典1</p>
-            <p>入会金<span class="big">0</span>円</p>
-        </div>
-        <div class="campaign-container__item">
-            <p class="tokuten">特典2</p>
             <p>1ヶ月分<span class="big">無料</span></p>
         </div>
         <div class="campaign-container__item">
-            <p class="tokuten">特典3</p>
+            <p class="tokuten">特典2</p>
             <p>セラバンド<span>プレゼント</span></p>
         </div>
     </div>
     <p class="to_contact">
-        <a href="<?php echo home_url(); ?>/contact">お申し込み</a>
+        <a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a>
     </p>
 </div>
 </section>

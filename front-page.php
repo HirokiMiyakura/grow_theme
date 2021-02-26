@@ -104,14 +104,10 @@
     <div class="campaign-container">
         <div class="campaign-container__item">
             <p class="tokuten">特典1</p>
-            <p>入会金<span class="big">0</span>円</p>
-        </div>
-        <div class="campaign-container__item">
-            <p class="tokuten">特典2</p>
             <p>1ヶ月分<span class="big">無料</span></p>
         </div>
         <div class="campaign-container__item">
-            <p class="tokuten">特典3</p>
+            <p class="tokuten">特典2</p>
             <p>セラバンド<span>プレゼント</span></p>
         </div>
     </div>
@@ -161,7 +157,7 @@
 <section id="contact">
 <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
 <h2 class="sectionTitle"><span>Contact</span>お問い合わせ</h2>
-<?php echo do_shortcode( '[contact-form-7 id="7" title="コンタクトフォーム 1"]' ); ?>
+<?php echo do_shortcode( '[contact-form-7 id="127" title="コンタクトフォーム"]' ); ?>
 </div>
 </section>
 </main>

@@ -300,6 +300,7 @@ section {
             span {
                 color: rgb(238, 50, 129);
                 font-size: 18px;
+                letter-spacing: 2px;
                 &:after {
                     content: "\A" ;
 	                white-space: pre ;
@@ -379,7 +380,7 @@ section {
     justify-content: center;
     align-items: top;
     &__item {
-        width: 30%;
+        width: 45%;
         padding: 16px;
         // border: 1px solid silver;
         position: relative;
@@ -613,7 +614,7 @@ footer {
     &__table td{
         text-align: center;
         padding: 7px 0;
-        padding: 1em 0;
+        padding: 0.7em 0;
         border-right:solid 1px #ddd;
         border-left:solid 1px #ddd;
         width: 155px;

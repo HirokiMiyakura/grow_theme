@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: CONTACT(contact-page.php)
+Template Name: CONTACT CTS(contact-cts-page.php)
 */
 get_header(); ?>
 <main>
 <section id="desc_section">
 <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
 <h2 class="sectionTitle"><span>お問い合わせ</span>CONTACT</h2>
-<?php echo do_shortcode('[contact-form-7 id="127" title="コンタクトフォーム"]'); ?>
+<?php echo do_shortcode('[contact-form-7 id="7" title="コンタクトフォーム （CTS）"]'); ?>
 </div>
 </section>
 <section id="business_section">

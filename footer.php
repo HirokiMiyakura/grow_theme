@@ -7,20 +7,20 @@
 <h5>サービス</h5>
 <ul>
 <li><a href="<?php echo home_url(); ?>/cts"><span>></span> CTS</a></li>
-<li><a href="<?php echo home_url(); ?>/"><span>></span> ロコリハ</a></li>
+<li><a href="<?php echo home_url(); ?>/rocoreha"><span>></span> ロコリハ</a></li>
 </ul>
 </div>
 <div class="footer_container__item">
 <h5>企業情報</h5>
 <ul>
 <li><a href="<?php echo home_url(); ?>/company"><span>></span> 企業情報</a></li>
-<li><a href="<?php echo home_url(); ?>/company"><span>></span> お問い合わせ</a></li>
+<li><a href="<?php echo home_url(); ?>/contact"><span>></span> お問い合わせ</a></li>
 </ul>
 </div>
 <div class="footer_container__item">
 <h5>お知らせ</h5>
 <ul>
-<li><a href="<?php echo home_url(); ?>/"><span>></span> お知らせ一覧</a></li>
+<li><a href="<?php echo home_url(); ?>/news"><span>></span> お知らせ一覧</a></li>
 </ul>
 </div>
 <div class="footer_container__item">
