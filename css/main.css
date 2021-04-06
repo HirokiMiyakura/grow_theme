@@ -567,7 +567,7 @@ section div .outer-container p.more a {
 }
 
 .wpcf7-form .wpcf7-submit:hover {
-  background: #0a92b1;
+  background: #32eeee;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -694,7 +694,12 @@ footer .footer_container__item ul li a span {
 }
 
 .price-container__table th:nth-child(4) {
-  background-color: #0a92b1;
+  background-color: #32eeee;
+  color: white;
+}
+
+.price-container__table th:nth-child(5) {
+  background-color: green;
   color: white;
 }
 
@@ -757,7 +762,17 @@ footer .footer_container__item ul li a span {
 
 .price-container__table tr:last-child td {
   font-size: .85em;
-  padding-bottom: 1.5em;
+  padding: 1.5em;
+}
+
+.class_detail {
+  text-align: right;
+  margin-top: 12px;
+  font-weight: normal;
+}
+
+.massage_detail {
+  text-align: right;
 }
 
 .company-container {
@@ -874,7 +889,7 @@ footer .footer_container__item ul li a span {
     text-align: right;
   }
   section > div .outer-container .business-right p {
-    text-align: right;
+    text-align: left;
   }
   section > div .outer-container h3 {
     font-weight: 900;
@@ -885,9 +900,9 @@ footer .footer_container__item ul li a span {
   section > div .outer-container h4 {
     color: #32eeee;
     font-weight: 700;
-    font-size: 2;
     letter-spacing: .1em;
     margin-top: 2em;
+    text-align: left;
   }
   section > div .outer-container p {
     text-align: left;
@@ -960,9 +975,16 @@ footer .footer_container__item ul li a span {
   .price-container table td {
     display: block;
     width: 100%;
-    padding: 12px 0;
+    padding: 12px;
     text-align: center;
     letter-spacing: 1px;
+  }
+  .price-container table td:nth-child(2) {
+    font-weight: bold;
+  }
+  .price-container table td:last-child {
+    padding-top: 0;
+    font-size: .85em;
   }
   .price-container table tr:nth-child(1) th {
     background-color: #dddddd;
@@ -976,8 +998,18 @@ footer .footer_container__item ul li a span {
     color: white;
   }
   .price-container table tr:nth-child(4) th {
-    background-color: #0a92b1;
+    background-color: #32eeee;
     color: white;
+  }
+  .price-container table tr:nth-child(5) th {
+    background-color: green;
+    color: white;
+  }
+  .massage_detail {
+    margin-top: 24px;
+  }
+  .detail_first {
+    margin-top: 24px;
   }
   .company-container table {
     font-size: 12px;

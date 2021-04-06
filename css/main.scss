@@ -1,5 +1,5 @@
 $mainColor: rgb(238, 50, 129);
-$subColor: #0a92b1;
+$subColor: rgb(50, 238, 238);
 $maxWidth: 1000px;
 
 body {
@@ -33,6 +33,7 @@ p {
 
 a {
     color: $mainColor;
+
 }
 
 /*============
@@ -207,7 +208,7 @@ a {
         animation: titledelay 1.5s ease;
         text-shadow: 2px 2px 4px #000000; 
         span {
-            color: rgb(238, 50, 129);
+            color: $mainColor;
             color: #fff;
             display: block;
             font-size: .25em;
@@ -255,7 +256,7 @@ a {
                     color: #444;
                     text-decoration: none;
                     &:hover {
-                        color: rgb(238, 50, 129);
+                        color: $mainColor;
                     }
                 }
             }
@@ -295,7 +296,7 @@ section {
             font-size: 64px;
             text-align: center;
             span {
-                color: rgb(238, 50, 129);
+                color: $mainColor;
                 font-size: 18px;
                 letter-spacing: 2px;
                 &:after {
@@ -591,6 +592,11 @@ footer {
         background-color: $subColor;
         color: white;
     }
+
+    &__table th:nth-child(5){
+        background-color: green;
+        color: white;
+    }
     
     &__table tr:nth-child(2) td{
         font-size: 30px;
@@ -651,9 +657,19 @@ footer {
     &__table tr:last-child {
         td {
             font-size: .85em;
-            padding-bottom: 1.5em;
+            padding: 1.5em;
         }
     }
+}
+
+.class_detail {
+    text-align: right;
+    margin-top: 12px;
+    font-weight: normal;
+}
+
+.massage_detail {
+    text-align: right;
 }
 
 // COMPANYページ
@@ -774,7 +790,7 @@ footer {
                     width: 100%;
                     text-align: right;
                     p {
-                        text-align: right;
+                        text-align: left;
                     }
                 }
                 h3 {
@@ -784,11 +800,11 @@ footer {
                     margin-top: 1em;
                 }
                 h4 {
-                    color: rgb(50, 238, 238);
+                    color: $subColor;
                     font-weight: 700;
-                    font-size: 2;
                     letter-spacing: .1em;
                     margin-top: 2em;
+                    text-align: left;
                 }
                 p {
                     text-align: left;
@@ -873,9 +889,16 @@ footer {
             td {
                 display: block;
                 width: 100%;
-                padding: 12px 0;
+                padding: 12px;
                 text-align: center;
                 letter-spacing: 1px;
+            }
+            td:nth-child(2) {
+                font-weight: bold;
+            }
+            td:last-child {
+                padding-top: 0;
+                font-size: .85em;
             }
             tr:nth-child(1) th {
                 background-color:#dddddd;
@@ -894,7 +917,19 @@ footer {
                 background-color: $subColor;
                 color: white;
             }
+            tr:nth-child(5) th {
+                background-color: green;
+                color: white;
+            }
         }
+    }
+
+    .massage_detail {
+        margin-top: 24px;
+    }
+
+    .detail_first {
+        margin-top: 24px;
     }
 
     // COMPANYページ

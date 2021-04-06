@@ -33,20 +33,30 @@ get_header(); ?>
           <tr>
             <th>入会金</th>
             <th>週1コース</th>
+            <th>週2コース</th>
             <th>フリークラス</th>
             <th>年会費</th>
           </tr>
           <tr>
             <td>¥3,300</td>
             <td class="popular">¥6,600</td>
+            <td>¥8,800</td>
             <td>¥11,000</td>
             <td>¥15,000</td>
           </tr>
           <tr>
             <td>※ 初回のみ</td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
-            <td>※ 12月28日に1月分と一緒に請求</td>
+            <td>1ヶ月4回</td>
+            <td>1ヶ月8回</td>
+            <td>レッスン参加無制限<br>1日2コマまで参加可</td>
+            <td>※ 12月28日に<br>1月分と一緒に請求</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+            <td></td>
           </tr>
         </table>
         <table class="sp">
@@ -58,19 +68,30 @@ get_header(); ?>
           <tr>
             <th>週1コース</th>
             <td class="popular">¥6,600</td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
+            <td>1ヶ月4回</td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+          </tr>
+          <tr>
+            <th>週2コース</th>
+            <td class="popular">¥8,800</td>
+            <td>1ヶ月8回</td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
           </tr>
           <tr>
             <th>フリークラス</th>
             <td>¥11,000</td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts/">申し込み</a></td>
+            <td>レッスン参加無制限<br>1日2コマまで参加可</td>
+            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
           </tr>
           <tr>
             <th>年会費</th>
             <td>¥15,000</td>
+            <td>※ 12月28日に<br>1月分と一緒に請求</td>
           </tr>
         </table>
       </div>
+      <h4 class="class_detail detail_first">※ 兄弟割引き(¥1,100) 以降¥1,100円ずつ割引</h4>
+      <h4 class="class_detail">※ ビジターは¥2,200で参加が可能です</h4>
     </div>
   </section>
   <section>

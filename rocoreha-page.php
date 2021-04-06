@@ -77,39 +77,56 @@ get_header(); ?>
         <table class="price-container__table pc">
           <tr>
             <th>入会金</th>
-            <th>月会費</th>
-            <th>オプション<br>（マッサージ、動作分析、メニュー作成）</th>
+            <th>ノーマル会員</th>
+            <th>父兄会員</th>
+            <th>オプション</th>
           </tr>
           <tr>
-            <td>¥16,500</td>
+            <td>¥15,000</td>
             <td class="popular">¥4,980</td>
+            <td>¥2,750</td>
             <td>¥2,200</td>
           </tr>
           <tr>
             <td>※ 初回のみ</td>
-            <td><a href="<?php echo home_url(); ?>/contact-rocoreha/">申し込み</a></td>
-            <td><a href="<?php echo home_url(); ?>/contact-rocoreha/">申し込み</a></td>
+            <td>参加無制限</td>
+            <td>お子様がCTS会員の保護者のみ</td>
+            <td>マッサージ(月8回1回10分)、動作分析、メニュー作成</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="<?php echo home_url(); ?>/contact-rocoreha">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-rocoreha">お申し込み</a></td>
+            <td></td>
           </tr>
         </table>
         <table class="sp">
           <tr>
             <th>入会金</th>
-            <td>¥16,500</td>
+            <td>¥15,000</td>
             <td>※ 初回のみ</td>
           </tr>
           <tr>
-            <th>月会費</th>
+            <th>ノーマル会員</th>
             <td class="popular">¥4,980</td>
-            <td><a href="<?php echo home_url(); ?>/contact-rocoreha/">申し込み</a></td>
+            <td>参加無制限</td>
+            <td><a href="<?php echo home_url(); ?>/contact-rocoreha">お申し込み</a></td>
           </tr>
           <tr>
-            <th>オプション（マッサージ、動作分析、メニュー作成）</th>
-            <td>¥2,200<td>
-            <td><a href="<?php echo home_url(); ?>/contact-rocoreha/">申し込み</a></td>
+            <th>父兄会員</th>
+            <td class="popular">¥2,750</td>
+            <td>お子様がCTS会員の保護者のみ</td>
+            <td><a href="<?php echo home_url(); ?>/contact-rocoreha">お申し込み</a></td>
+          </tr>
+          <tr>
+            <th>オプション</th>
+            <td>¥2,200</td>
+            <td>マッサージ(月8回1回10分)、動作分析、メニュー作成</td>
           </tr>
         </table>
       </div>
-      <h4 style="text-align: right;">※ マッサージは月8回（1回10分程度）</h4>
+      <h4 class="class_detail">※ ビジター（マシンのみ使用）¥550</h4>
+      <h4 class="class_detail">※ ビジター（マシン、マッサージ併用）¥1,300</h4>
     </div>
   </section>
   <section>
