@@ -87,8 +87,8 @@ a {
 }
 
 /*============
-    .toggle_btn
-    =============*/
+.toggle_btn
+=============*/
 .toggle_btn {
   display: block;
   position: fixed;
@@ -146,8 +146,8 @@ a {
 }
 
 /*============
-    #mask
-    =============*/
+#mask
+=============*/
 #mask {
   display: none;
   -webkit-transition: all .5s;
@@ -315,7 +315,6 @@ a {
 }
 
 .to_news a {
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -329,19 +328,19 @@ section div {
   margin: 0 auto;
 }
 
-section div h2 {
+section div .sectionTitle {
   font-weight: 700;
   font-size: 64px;
   text-align: center;
 }
 
-section div h2 span {
+section div .sectionTitle span {
   color: #ee3281;
   font-size: 18px;
   letter-spacing: 2px;
 }
 
-section div h2 span:after {
+section div .sectionTitle span:after {
   content: "\A";
   white-space: pre;
 }
@@ -358,7 +357,7 @@ section div p {
   margin: 30px auto;
 }
 
-section div .business-container {
+section div .outer-container {
   margin-top: 4em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -371,27 +370,28 @@ section div .business-container {
           align-items: center;
 }
 
-section div .business-container .business-left {
+section div .outer-container .business-left {
   width: 50%;
 }
 
-section div .business-container .business-right {
+section div .outer-container .business-right {
   width: 50%;
   text-align: right;
 }
 
-section div .business-container .business-right p {
+section div .outer-container .business-right p {
   text-align: left;
 }
 
-section div .business-container h3 {
+section div .outer-container h3 {
+  margin-top: 0;
   font-weight: 900;
   font-size: 4em;
   letter-spacing: .2em;
 }
 
-section div .business-container h4 {
-  color: #32eeee;
+section div .outer-container h4 {
+  text-align: center;
   color: #ee3281;
   font-weight: 700;
   font-size: 2;
@@ -399,14 +399,13 @@ section div .business-container h4 {
   margin-top: 2em;
 }
 
-section div .business-container p {
+section div .outer-container p {
   text-align: left;
 }
 
-section div .business-container p.more {
+section div .outer-container p.more {
   display: block;
   width: 240px;
-  padding: 1em;
   border-radius: 1em;
   letter-spacing: .2em;
   text-align: center;
@@ -415,16 +414,17 @@ section div .business-container p.more {
           box-shadow: 10px 10px 15px -10px;
 }
 
-section div .business-container p.more:hover {
+section div .outer-container p.more:hover {
   background-color: #ee3281;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-section div .business-container p.more a {
+section div .outer-container p.more a {
   display: block;
   text-decoration: none;
   color: #fff;
+  padding: 1em;
 }
 
 .campaign-container {
@@ -466,13 +466,12 @@ section div .business-container p.more a {
 
 .to_contact {
   display: block;
-  width: 340px;
+  width: 100%;
   margin-top: 4em;
-  padding: 1em;
   border-radius: 1em;
   letter-spacing: .2em;
+  font-size: 24px;
   text-align: center;
-  background-color: #32eeee;
   background-color: #ee3281;
   -webkit-box-shadow: 10px 10px 15px -10px;
           box-shadow: 10px 10px 15px -10px;
@@ -486,6 +485,7 @@ section div .business-container p.more a {
 }
 
 .to_contact a {
+  padding: 1em;
   display: block;
   text-decoration: none;
   color: #fff;
@@ -528,12 +528,10 @@ section div .business-container p.more a {
   text-align: center;
 }
 
-#rinen,
 #staff {
   height: 100vh;
 }
 
-#rinen p,
 #staff p {
   text-align: left;
 }
@@ -560,7 +558,12 @@ section div .business-container p.more a {
 .wpcf7-form .wpcf7-submit {
   background: #ee3281;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: .2em;
+  font-size: 24px;
+  padding: 1em;
+  border-radius: 1em;
+  -webkit-box-shadow: 10px 10px 15px -10px;
+          box-shadow: 10px 10px 15px -10px;
 }
 
 .wpcf7-form .wpcf7-submit:hover {
@@ -571,7 +574,6 @@ section div .business-container p.more a {
 
 footer {
   position: relative;
-  background: #32eeee;
   background: #ee3281;
   padding: 32px 0;
   margin: 16vh 0 0 0;
@@ -593,7 +595,7 @@ footer .footer_container {
 
 footer .footer_container__item {
   width: 25%;
-  padding: 4vh 0;
+  padding: 24px 8px;
 }
 
 footer .footer_container__item h5 {
@@ -618,7 +620,7 @@ footer .footer_container__item ul li a span {
 }
 
 .copyright {
-  font-size: 8px;
+  font-size: 11px;
   text-align: center;
   padding: 16px;
   color: #fff;
@@ -652,10 +654,9 @@ footer .footer_container__item ul li a span {
   }
 }
 
-.schedule-list {
-  margin: 1em 0;
-  list-style-type: none;
-  line-height: 2;
+.price-container {
+  -webkit-box-shadow: 10px 10px 15px -10px;
+          box-shadow: 10px 10px 15px -10px;
 }
 
 .price-container__table {
@@ -694,6 +695,11 @@ footer .footer_container__item ul li a span {
 
 .price-container__table th:nth-child(4) {
   background-color: #32eeee;
+  color: white;
+}
+
+.price-container__table th:nth-child(5) {
+  background-color: green;
   color: white;
 }
 
@@ -756,45 +762,23 @@ footer .footer_container__item ul li a span {
 
 .price-container__table tr:last-child td {
   font-size: .85em;
-  padding-bottom: 1.5em;
+  padding: 1.5em;
 }
 
-.course_table {
-  width: 100%;
-  font-size: 12px;
-  border-collapse: collapse;
-  border: solid 1px #eee;
+.class_detail {
+  text-align: right;
+  margin-top: 12px;
+  font-weight: normal;
 }
 
-.course_table tr:first-child {
-  background: #32eeee;
-  color: #fff;
-  font-weight: bold;
-}
-
-.course_table tr.target {
-  background: silver;
-}
-
-.course_table tr th,
-.course_table tr td {
-  padding: 10px 5px;
-  vertical-align: top;
-  border-collapse: collapse;
-  border: solid 1px #eee;
-}
-
-.course_table tr td.bg_yellow {
-  background-color: yellow;
-}
-
-.course_table tr td.bg_green {
-  background-color: green;
-  color: #fff;
+.massage_detail {
+  text-align: right;
 }
 
 .company-container {
   margin-top: 4em;
+  -webkit-box-shadow: 10px 10px 15px -10px;
+          box-shadow: 10px 10px 15px -10px;
 }
 
 .company-container table {
@@ -883,52 +867,52 @@ footer .footer_container__item ul li a span {
   section > div {
     padding: 1em;
   }
-  section > div h2 {
+  section > div .sectionTitle {
     font-size: 32px;
   }
   section > div h3 {
     font-size: 20px;
   }
-  section > div .business-container {
+  section > div .outer-container {
     margin-top: 4em;
     display: block;
   }
-  section > div .business-container .fl,
-  section > div .business-container .fr {
+  section > div .outer-container .fl,
+  section > div .outer-container .fr {
     float: none;
   }
-  section > div .business-container .business-left {
+  section > div .outer-container .business-left {
     width: 100%;
   }
-  section > div .business-container .business-right {
+  section > div .outer-container .business-right {
     width: 100%;
     text-align: right;
   }
-  section > div .business-container .business-right p {
-    text-align: right;
+  section > div .outer-container .business-right p {
+    text-align: left;
   }
-  section > div .business-container h3 {
+  section > div .outer-container h3 {
     font-weight: 900;
     font-size: 2em;
     letter-spacing: .2em;
     margin-top: 1em;
   }
-  section > div .business-container h4 {
+  section > div .outer-container h4 {
     color: #32eeee;
     font-weight: 700;
-    font-size: 2;
     letter-spacing: .1em;
     margin-top: 2em;
-  }
-  section > div .business-container p {
     text-align: left;
   }
-  section > div .business-container p.more {
+  section > div .outer-container p {
+    text-align: left;
+  }
+  section > div .outer-container p.more {
     display: block;
-    width: 240px;
+    width: 100%;
     color: #fff;
-    padding: 1em;
-    border-radius: 1em;
+    padding: 0;
+    border-radius: 12px 0;
     letter-spacing: .2em;
     text-align: center;
   }
@@ -937,6 +921,12 @@ footer .footer_container__item ul li a span {
   }
   .campaign-container__item {
     width: 100%;
+  }
+  .to_contact {
+    font-size: 18px;
+  }
+  .to_contact a {
+    padding: 12px 0;
   }
   .staff-container {
     margin-top: 4em;
@@ -952,12 +942,13 @@ footer .footer_container__item ul li a span {
   .staff-container .staff-item p {
     text-align: left;
   }
-  #rinen,
   #staff {
     height: auto;
   }
-  .wpcf7-form input {
-    width: auto;
+  .wpcf7-form .wpcf7-submit {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 0;
   }
   footer {
     padding: 16px;
@@ -984,9 +975,16 @@ footer .footer_container__item ul li a span {
   .price-container table td {
     display: block;
     width: 100%;
-    padding: 12px 0;
+    padding: 12px;
     text-align: center;
     letter-spacing: 1px;
+  }
+  .price-container table td:nth-child(2) {
+    font-weight: bold;
+  }
+  .price-container table td:last-child {
+    padding-top: 0;
+    font-size: .85em;
   }
   .price-container table tr:nth-child(1) th {
     background-color: #dddddd;
@@ -1002,6 +1000,16 @@ footer .footer_container__item ul li a span {
   .price-container table tr:nth-child(4) th {
     background-color: #32eeee;
     color: white;
+  }
+  .price-container table tr:nth-child(5) th {
+    background-color: green;
+    color: white;
+  }
+  .massage_detail {
+    margin-top: 24px;
+  }
+  .detail_first {
+    margin-top: 24px;
   }
   .company-container table {
     font-size: 12px;
