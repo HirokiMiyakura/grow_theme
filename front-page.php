@@ -88,9 +88,16 @@
           <p>セラバンド<span>プレゼント</span></p>
         </div>
       </div>
-      <p class="to_contact">
-        <a href="<?php echo home_url(); ?>/contact">お申し込み</a>
-      </p>
+      
+      <div class="btn-outer">
+        <div class="btn-wrap">
+          <a href="tel:0429805672" class="btn btn--main btn-c"><i class="fas fa-phone-alt fa-position-left"></i>お電話での申込みはこちら<br>042-980-5672<span> 受付時間 9:00~17:00</span></a>
+        </div>
+        <div class="btn-wrap">
+          <a href="<?php echo home_url(); ?>/contact" class="btn btn--sub btn-c"><i class="fa fas fa-envelope fa-position-left"></i>WEB申込みはこちら<br>24時間365日受付中</a>
+        </div>
+      </div>
+
     </div>
   </section>
   <section id="staff">

@@ -17,6 +17,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/slick/slick-theme.css"/>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/f0fad84633.js" crossorigin="anonymous"></script>
 <?php wp_head(); ?>
 <script>
 // conditionizr.com
