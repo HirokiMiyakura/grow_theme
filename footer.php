@@ -1,3 +1,4 @@
+<?php get_template_part( 'templates/sponcor'); ?>
 <footer class="footer" role="contentinfo">
   <div>
     <div class="footer_container">
