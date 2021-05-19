@@ -19,7 +19,7 @@ get_header(); ?>
       <h2 class="sectionTitle"><span>FEATURES</span>ロコリハの特徴</h2>
       <div class="outer-container">
         <p class="sp">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_1.jpg" alt="cts">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_1.jpg" alt="rocoreha">
         </p>
         <div class="business-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <h4 class="bold" style="font-size: 1.5em;">医療系国家資格保持者</h4>
@@ -28,7 +28,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="business-right pc">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_1.jpg" alt="cts">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_1.jpg" alt="rocoreha">
       </div>
     </div>
     <div class="outer-container">
@@ -45,7 +45,7 @@ get_header(); ?>
     <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
       <div class="outer-container">
         <p class="sp">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_3.jpg" alt="cts">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_3.jpg" alt="rocoreha">
         </p>
         <div class="business-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <h4 class="bold" style="font-size: 1.5em;">人工芝で気持ちの良いトレーニング</h4>
@@ -54,7 +54,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="business-right pc">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_3.jpg" alt="cts">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/rocoreha/roco_3.jpg" alt="rocoreha">
         </div>
       </div>
       <div class="outer-container">
@@ -90,7 +90,7 @@ get_header(); ?>
           <tr>
             <td>※ 初回のみ</td>
             <td>参加無制限</td>
-            <td>お子様がCTS会員の保護者のみ</td>
+            <td>お子様がMABLE会員の保護者のみ</td>
             <td>マッサージ(月8回1回10分)、動作分析、メニュー作成</td>
           </tr>
           <tr>
@@ -115,7 +115,7 @@ get_header(); ?>
           <tr>
             <th>父兄会員</th>
             <td class="popular">¥2,750</td>
-            <td>お子様がCTS会員の保護者のみ</td>
+            <td>お子様がMABLE会員の保護者のみ</td>
             <td><a href="<?php echo home_url(); ?>/contact-rocoreha">お申し込み</a></td>
           </tr>
           <tr>

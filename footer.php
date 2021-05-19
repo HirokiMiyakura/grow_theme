@@ -5,7 +5,7 @@
       <div class="footer_container__item">
         <h5>サービス</h5>
         <ul>
-          <li><a href="<?php echo home_url(); ?>/cts"><span>></span> CTS</a></li>
+          <li><a href="<?php echo home_url(); ?>/mable"><span>></span> MABLE</a></li>
           <li><a href="<?php echo home_url(); ?>/rocoreha"><span>></span> ロコリハ</a></li>
         </ul>
       </div>
@@ -14,7 +14,7 @@
         <ul>
           <li><a href="<?php echo home_url(); ?>/company"><span>></span> 企業情報</a></li>
           <li><a href="<?php echo home_url(); ?>/contact"><span>></span> 弊社へのお問い合わせ</a></li>
-          <li><a href="<?php echo home_url(); ?>/contact-cts"><span>></span> CTSに関するお問い合わせ</a></li>
+          <li><a href="<?php echo home_url(); ?>/contact-mable"><span>></span> MABLEに関するお問い合わせ</a></li>
           <li><a href="<?php echo home_url(); ?>/contact-rocoreha"><span>></span> ROCOREHAに関するお問い合わせ</a></li>
         </ul>
       </div>

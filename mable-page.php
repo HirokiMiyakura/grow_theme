@@ -1,12 +1,12 @@
 <?php
 /*
-Template Name: CTS(cts-page.php)
+Template Name: MABLE(mable-page.php)
 */
 get_header(); ?>
 <main>
   <section>
     <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
-      <h2 class="sectionTitle"><span>セレベレムトレーニングスクール</span>CTS</h2>
+      <h2 class="sectionTitle"><span>マーブル スポーツ アカデミー</span>MABLE</h2>
       <h3>今しかできない運動能力を<br class="sp">手に入れるために</h3>
       <div class="outer-container">
         <p>現在の子供達は環境の変化、遊び方の変化で１０年前より運動神経が落ちております。<br><br>
@@ -53,9 +53,9 @@ get_header(); ?>
           </tr>
           <tr>
             <td></td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-mable">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-mable">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-mable">お申し込み</a></td>
             <td></td>
           </tr>
         </table>
@@ -69,19 +69,19 @@ get_header(); ?>
             <th>週1コース</th>
             <td class="popular">¥6,600</td>
             <td>1ヶ月4回</td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-mable">お申し込み</a></td>
           </tr>
           <tr>
             <th>週2コース</th>
             <td class="popular">¥8,800</td>
             <td>1ヶ月8回</td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-mable">お申し込み</a></td>
           </tr>
           <tr>
             <th>フリークラス</th>
             <td>¥11,000</td>
             <td>レッスン参加無制限<br>1日2コマまで参加可</td>
-            <td><a href="<?php echo home_url(); ?>/contact-cts">お申し込み</a></td>
+            <td><a href="<?php echo home_url(); ?>/contact-mable">お申し込み</a></td>
           </tr>
           <tr>
             <th>年会費</th>
@@ -113,7 +113,7 @@ get_header(); ?>
           <a href="tel:0429805672" class="btn btn--main btn-c"><i class="fas fa-phone-alt fa-position-left"></i>お電話での申込みはこちら<br>042-980-5672<span> 受付時間 9:00~17:00</span></a>
         </div>
         <div class="btn-wrap">
-          <a href="<?php echo home_url(); ?>/contact-cts" class="btn btn--sub btn-c"><i class="fa fas fa-envelope fa-position-left"></i>WEB申込みはこちら<br>24時間365日受付中</a>
+          <a href="<?php echo home_url(); ?>/contact-mable" class="btn btn--sub btn-c"><i class="fa fas fa-envelope fa-position-left"></i>WEB申込みはこちら<br>24時間365日受付中</a>
         </div>
       </div>
     </div>

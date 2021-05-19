@@ -44,8 +44,8 @@ conditionizr.config({
 	<p class="header__image" style="text-align: right;">
 		<?php if(is_front_page()) : ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/top/logo.png" alt="ロゴ" />
-		<?php elseif(is_page('cts')): ?>
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/cts_logo.jpg" alt="ロゴ" />
+		<?php elseif(is_page('mable')): ?>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mable/mable_logo.png" alt="ロゴ" />
 		<?php elseif(is_page('rocoreha')): ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/top/rocoreha_logo.jpg" alt="ロゴ" />
 		<?php endif; ?>
@@ -54,7 +54,7 @@ conditionizr.config({
 		<ul>
 			<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
 			<li><a href="<?php echo home_url(); ?>/news">お知らせ一覧</a></li>
-			<li><a href="<?php echo home_url(); ?>/cts">CTS</a></li>
+			<li><a href="<?php echo home_url(); ?>/mable">MABLE</a></li>
 			<li><a href="<?php echo home_url(); ?>/rocoreha">ロコリハ</a></li>
 			<li><a href="<?php echo home_url(); ?>/company">会社情報・アクセス</a></li>
 			<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
@@ -66,7 +66,7 @@ conditionizr.config({
 				<ul>
 					<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
 					<li><a href="<?php echo home_url(); ?>/news">お知らせ</a></li>
-					<li><a href="<?php echo home_url(); ?>/cts">CTS</a></li>
+					<li><a href="<?php echo home_url(); ?>/mable">MABLE</a></li>
 					<li><a href="<?php echo home_url(); ?>/rocoreha">ロコリハ</a></li>
 					<li><a href="<?php echo home_url(); ?>/company">会社情報・アクセス</a></li>
 					<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
