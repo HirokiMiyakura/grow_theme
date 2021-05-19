@@ -47,17 +47,17 @@
       <h2 class="sectionTitle"><span>Business</span>事業紹介</h2>
       <div class="outer-container">
         <p class="sp">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/top/cts_logo.jpg" alt="cts">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/mable/mable_logo.png" alt="mable">
         </p>
         <div class="business-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
-          <h3>CTS</h3>
-          <h4>セレベレムトレーニングスクール</h4>
+          <h3>MABLE</h3>
+          <h4>マーブルスポーツアカデミー</h4>
           <p>運動の苦手な小学生を対象とした運動神経向上スクール<br>医療系国家資格を持つスタッフが教える日本初の小脳トレーニング
           </p>
-          <p class="more fl"><a href="<?php echo home_url(); ?>/cts">詳しく見る</a></p>
+          <p class="more fl"><a href="<?php echo home_url(); ?>/mable">詳しく見る</a></p>
         </div>
         <div class="business-right pc">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/top/cts_logo.jpg" alt="cts">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/mable/mable_logo.png" alt="mable">
         </div>
       </div>
       <div class="outer-container">

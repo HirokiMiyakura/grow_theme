@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: CONTACT CTS(contact-cts-page.php)
+Template Name: CONTACT MABLE(contact-mable-page.php)
 */
 get_header(); ?>
 <main>
   <section>
     <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
-      <h2 class="sectionTitle"><span>CTSに関するお問い合わせ</span>CONTACT</h2>
-      <?php echo do_shortcode('[contact-form-7 id="7" title="コンタクトフォーム （CTS）"]'); ?>
+      <h2 class="sectionTitle"><span>MABLEに関するお問い合わせ</span>CONTACT</h2>
+      <?php echo do_shortcode('[contact-form-7 id="7" title="コンタクトフォーム （MABLE）"]'); ?>
     </div>
   </section>
   <section>
