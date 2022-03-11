@@ -6,7 +6,7 @@
         <h5>サービス</h5>
         <ul>
           <li><a href="<?php echo home_url(); ?>/mable"><span>></span> MABLE</a></li>
-          <li><a href="<?php echo home_url(); ?>/rocoreha"><span>></span> ロコリハ</a></li>
+          <li><a href="<?php echo home_url(); ?>/locoreha"><span>></span> ロコリハ</a></li>
         </ul>
       </div>
       <div class="footer_container__item">
@@ -15,7 +15,7 @@
           <li><a href="<?php echo home_url(); ?>/company"><span>></span> 企業情報</a></li>
           <li><a href="<?php echo home_url(); ?>/contact"><span>></span> 弊社へのお問い合わせ</a></li>
           <li><a href="<?php echo home_url(); ?>/contact-mable"><span>></span> MABLEに関するお問い合わせ</a></li>
-          <li><a href="<?php echo home_url(); ?>/contact-rocoreha"><span>></span> ROCOREHAに関するお問い合わせ</a></li>
+          <li><a href="<?php echo home_url(); ?>/contact-locoreha"><span>></span> LOCOREHAに関するお問い合わせ</a></li>
         </ul>
       </div>
       <div class="footer_container__item">
@@ -27,7 +27,7 @@
       <div class="footer_container__item">
         <h5>SNS</h5>
         <ul>
-          <li><a target="_blank" href="https://www.instagram.com/cerebellum.official/"><span>></span> Instagram</a></li>
+          <li><a target="_blank" href="https://www.instagram.com/marblesports.official/"><span>></span> Instagram</a></li>
         </ul>
       </div>
     </div>

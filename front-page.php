@@ -62,15 +62,15 @@
       </div>
       <div class="outer-container">
         <div class="business-left">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/top/rocoreha_logo.jpg" alt="rocoreha">
+          <img width="90%" src="<?php echo get_template_directory_uri(); ?>/img/top/locoreha_logo.jpg" alt="locoreha">
         </div>
         <div class="business-right" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
-          <h3>ROCO REHA</h3>
+          <h3>LOCO REHA</h3>
           <h4>ロコリハ</h4>
-          <p>「もし、痛みが無くなるのなら！！」<br>
-              坂戸市、鶴ヶ島市を日本一の健康寿命を誇る地域にするためのサポートをさせていただきます。
+          <p>「健康的で楽しいライフスタイルを！」<br>
+              日高市、鶴ヶ島市を日本一の健康寿命を誇る地域にするためのサポートをさせていただきます。
           </p>
-          <p class="more fr"><a href="<?php echo home_url(); ?>/rocoreha">詳しく見る</a></p>
+          <p class="more fr"><a href="<?php echo home_url(); ?>/locoreha">詳しく見る</a></p>
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ conditionizr.config({
 	</div>
 	<nav class="header__nav_above">
 		<ul>
-			<li><a target="_blank" href="https://www.instagram.com/cerebellum.official/">instagram</a></li>
+			<li><a target="_blank" href="https://www.instagram.com/marblesports.official/">instagram</a></li>
 		</ul>
 	</nav>
 	<h1 class="header__title">Grow inc.<br><span>地域に愛され、100年続く会社へ</span></h1>
@@ -46,8 +46,8 @@ conditionizr.config({
 			<img src="<?php echo get_template_directory_uri(); ?>/img/top/logo.png" alt="ロゴ" />
 		<?php elseif(is_page('mable')): ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mable/mable_logo.png" alt="ロゴ" />
-		<?php elseif(is_page('rocoreha')): ?>
-			<img src="<?php echo get_template_directory_uri(); ?>/img/top/rocoreha_logo.jpg" alt="ロゴ" />
+		<?php elseif(is_page('locoreha')): ?>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/top/locoreha_logo.jpg" alt="ロゴ" />
 		<?php endif; ?>
 	</p>
 	<nav class="header__nav_bottom">
@@ -55,7 +55,7 @@ conditionizr.config({
 			<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
 			<li><a href="<?php echo home_url(); ?>/news">お知らせ一覧</a></li>
 			<li><a href="<?php echo home_url(); ?>/mable">MABLE</a></li>
-			<li><a href="<?php echo home_url(); ?>/rocoreha">ロコリハ</a></li>
+			<li><a href="<?php echo home_url(); ?>/locoreha">ロコリハ</a></li>
 			<li><a href="<?php echo home_url(); ?>/company">会社情報・アクセス</a></li>
 			<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
 		</ul>
@@ -67,7 +67,7 @@ conditionizr.config({
 					<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
 					<li><a href="<?php echo home_url(); ?>/news">お知らせ</a></li>
 					<li><a href="<?php echo home_url(); ?>/mable">MABLE</a></li>
-					<li><a href="<?php echo home_url(); ?>/rocoreha">ロコリハ</a></li>
+					<li><a href="<?php echo home_url(); ?>/locoreha">ロコリハ</a></li>
 					<li><a href="<?php echo home_url(); ?>/company">会社情報・アクセス</a></li>
 					<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
 				</ul>

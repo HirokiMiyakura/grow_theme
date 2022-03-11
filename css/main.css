@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: "Helvetica Neue",Arial, "Hiragino Kaku Gothic ProN","Hiragino Sans", Meiryo,sans-serif;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
 }
 
 .fl {
@@ -38,8 +38,8 @@ a {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   z-index: 3;
   opacity: 0;
 }
@@ -97,8 +97,8 @@ a {
   right: 30px;
   width: 30px;
   height: 30px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   cursor: pointer;
   z-index: 3;
 }
@@ -111,8 +111,8 @@ a {
   height: 2px;
   background-color: #333;
   border-radius: 4px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .toggle_btn span:nth-child(1) {
@@ -150,8 +150,8 @@ a {
 =============*/
 #mask {
   display: none;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .open #mask {
@@ -162,7 +162,7 @@ a {
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: .8;
+  opacity: 0.8;
   z-index: 2;
   cursor: pointer;
 }
@@ -208,7 +208,7 @@ a {
 
 .header__nav_above ul li {
   list-style-type: none;
-  padding: .3em 1em;
+  padding: 0.3em 1em;
 }
 
 .header__nav_above ul li a {
@@ -235,7 +235,7 @@ a {
   color: #ee3281;
   color: #fff;
   display: block;
-  font-size: .25em;
+  font-size: 0.25em;
   font-weight: 100;
   text-align: center;
 }
@@ -308,6 +308,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .sponcor-container__item {
@@ -362,7 +364,7 @@ section div .sectionTitle span {
 }
 
 section div .sectionTitle span:after {
-  content: "\A";
+  content: '\A';
   white-space: pre;
 }
 
@@ -408,7 +410,7 @@ section div .outer-container h3 {
   margin-top: 0;
   font-weight: 900;
   font-size: 4em;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 section div .outer-container h4 {
@@ -416,7 +418,7 @@ section div .outer-container h4 {
   color: #ee3281;
   font-weight: 700;
   font-size: 2;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin-top: 2em;
 }
 
@@ -428,7 +430,7 @@ section div .outer-container p.more {
   display: block;
   width: 240px;
   border-radius: 1em;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-align: center;
   background-color: #32eeee;
   -webkit-box-shadow: 10px 10px 15px -10px;
@@ -437,8 +439,8 @@ section div .outer-container p.more {
 
 section div .outer-container p.more:hover {
   background-color: #ee3281;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 section div .outer-container p.more a {
@@ -530,7 +532,7 @@ section div .outer-container p.more a {
 .btn-outer a.btn--main:hover {
   color: #fff;
   background: #ee3281;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .btn-outer a.btn--sub {
@@ -542,12 +544,12 @@ section div .outer-container p.more a {
 .btn-outer a.btn--sub:hover {
   color: #fff;
   background: #32eeee;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .btn-outer .fa-position-left {
   position: absolute;
-  top: calc(50% - .5em);
+  top: calc(50% - 0.5em);
   left: 1rem;
 }
 
@@ -560,7 +562,7 @@ section div .outer-container p.more a {
 }
 
 .btn-outer a.btn-c span {
-  font-size: .6em;
+  font-size: 0.6em;
 }
 
 .btn-outer a.btn-c i.fa {
@@ -572,7 +574,7 @@ section div .outer-container p.more a {
   font-size: 1.6rem;
   line-height: 1;
   position: absolute;
-  top: calc(50% - .8rem);
+  top: calc(50% - 0.8rem);
   right: 1rem;
   margin: 0;
   padding: 0;
@@ -584,7 +586,7 @@ section div .outer-container p.more a {
   width: 100%;
   margin-top: 4em;
   border-radius: 1em;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   font-size: 24px;
   text-align: center;
   background-color: #ee3281;
@@ -595,8 +597,8 @@ section div .outer-container p.more a {
 .to_contact:hover {
   background-color: #ee3281;
   background-color: #32eeee;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .to_contact a {
@@ -673,7 +675,7 @@ section div .outer-container p.more a {
 .wpcf7-form .wpcf7-submit {
   background: #ee3281;
   color: #fff;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   font-size: 24px;
   padding: 1em;
   border-radius: 1em;
@@ -683,8 +685,8 @@ section div .outer-container p.more a {
 
 .wpcf7-form .wpcf7-submit:hover {
   background: #32eeee;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 footer {
@@ -692,7 +694,7 @@ footer {
   background: #ee3281;
   padding: 32px 0;
   margin: 16vh 0 0 0;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 footer .footer_container {
@@ -720,7 +722,7 @@ footer .footer_container__item h5 {
 }
 
 footer .footer_container__item ul li {
-  font-size: .85em;
+  font-size: 0.85em;
   list-style-type: none;
   line-height: 2;
 }
@@ -747,7 +749,7 @@ footer .footer_container__item ul li a span {
     top: 60%;
   }
   50% {
-    opacity: .4;
+    opacity: 0.4;
   }
   to {
     opacity: 1;
@@ -761,7 +763,7 @@ footer .footer_container__item ul li a span {
     top: 60%;
   }
   50% {
-    opacity: .4;
+    opacity: 0.4;
   }
   to {
     opacity: 1;
@@ -876,7 +878,7 @@ footer .footer_container__item ul li a span {
 }
 
 .price-container__table tr:last-child td {
-  font-size: .85em;
+  font-size: 0.85em;
   padding: 1.5em;
 }
 
@@ -921,7 +923,7 @@ footer .footer_container__item ul li a span {
 
 .company-container table th:after {
   display: block;
-  content: "";
+  content: '';
   width: 0px;
   height: 0px;
   position: absolute;
@@ -1016,13 +1018,13 @@ footer .footer_container__item ul li a span {
   section > div .outer-container h3 {
     font-weight: 900;
     font-size: 2em;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     margin-top: 1em;
   }
   section > div .outer-container h4 {
     color: #32eeee;
     font-weight: 700;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     margin-top: 2em;
     text-align: left;
   }
@@ -1035,7 +1037,7 @@ footer .footer_container__item ul li a span {
     color: #fff;
     padding: 0;
     border-radius: 12px 0;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     text-align: center;
   }
   .campaign-container {
@@ -1117,7 +1119,7 @@ footer .footer_container__item ul li a span {
   }
   .price-container table td:last-child {
     padding-top: 0;
-    font-size: .85em;
+    font-size: 0.85em;
   }
   .price-container table tr:nth-child(1) th {
     background-color: #dddddd;

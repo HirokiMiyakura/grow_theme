@@ -1,12 +1,12 @@
 <?php
 /*
-Template Name: CONTACT ROCOREHA(contact-rocoreha-page.php)
+Template Name: CONTACT LOCOREHA(contact-locoreha-page.php)
 */
 get_header(); ?>
 <main>
   <section>
     <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
-      <h2 class="sectionTitle"><span>ROCOREHAに関するお問い合わせ</span>CONTACT</h2>
+      <h2 class="sectionTitle"><span>LOCOREHAに関するお問い合わせ</span>CONTACT</h2>
       <?php echo do_shortcode('[contact-form-7 id="126" title="コンタクトフォーム（ロコリハ）"]'); ?>
     </div>
   </section>

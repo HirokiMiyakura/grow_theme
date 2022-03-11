@@ -28,6 +28,27 @@
           </a>
         </p>
       </div>
+      <div class="sponcor-container__item">
+        <p class="sponcor">
+          <!-- <a href="http://arrowing-llc.jp" target="_blank"> -->
+            <img src="<?php echo get_template_directory_uri(); ?>/img/sponcor/arai_kogyo.jpg" alt="arrowing" />
+          <!-- </a> -->
+        </p>
+      </div>
+      <div class="sponcor-container__item">
+        <p class="sponcor">
+          <a href="http://ty-doboku.com" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/sponcor/toyo_doboku.jpg" alt="arrowing" />
+          </a>
+        </p>
+      </div>
+      <div class="sponcor-container__item">
+        <p class="sponcor">
+          <!-- <a href="http://ty-doboku.com" target="_blank"> -->
+            <img src="<?php echo get_template_directory_uri(); ?>/img/sponcor/tsumugi.jpg" alt="arrowing" />
+          <!-- </a> -->
+        </p>
+      </div>
     </div>
   </div>
 </section>
