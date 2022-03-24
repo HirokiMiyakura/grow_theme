@@ -106,6 +106,10 @@ get_header(); ?>
           <p class="tokuten">特典2</p>
           <p>セラバンド<span>プレゼント</span></p>
         </div>
+        <div class="campaign-container__item">
+          <p class="tokuten">特典3</p>
+          <p>バランスディスクorラダー<br><span>プレゼント</span></p>
+        </div>
       </div>
 
       <div class="btn-outer">

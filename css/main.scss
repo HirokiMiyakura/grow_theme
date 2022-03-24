@@ -393,7 +393,8 @@ section {
 	align-items: top;
 	&__item {
 		width: 45%;
-		padding: 16px;
+		// padding: 16px;
+		padding: 32px 7px 0;
 		position: relative;
 		box-shadow: 10px 10px 15px -10px;
 		.tokuten {
@@ -940,6 +941,7 @@ footer {
 		display: block;
 		&__item {
 			width: 100%;
+			padding: 24px 7px 7px;
 		}
 	}
 

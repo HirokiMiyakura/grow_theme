@@ -81,11 +81,15 @@
       <div class="campaign-container">
         <div class="campaign-container__item">
           <p class="tokuten">特典1</p>
-          <p>1ヶ月分<span class="big">無料</span></p>
+          <p>1ヶ月分間<span class="big">通い放題</span></p>
         </div>
         <div class="campaign-container__item">
           <p class="tokuten">特典2</p>
           <p>セラバンド<span>プレゼント</span></p>
+        </div>
+        <div class="campaign-container__item">
+          <p class="tokuten">特典3</p>
+          <p>バランスディスクorラダー<br><span>プレゼント</span></p>
         </div>
       </div>
       
