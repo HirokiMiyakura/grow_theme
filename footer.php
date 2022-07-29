@@ -16,6 +16,7 @@
           <li><a href="<?php echo home_url(); ?>/contact"><span>></span> 弊社へのお問い合わせ</a></li>
           <li><a href="<?php echo home_url(); ?>/contact-mable"><span>></span> MABLEに関するお問い合わせ</a></li>
           <li><a href="<?php echo home_url(); ?>/contact-locoreha"><span>></span> LOCOREHAに関するお問い合わせ</a></li>
+          <li><a href="<?php echo home_url(); ?>/system"><span>></span> 内部統制システムの構築に関して</a></li>
         </ul>
       </div>
       <div class="footer_container__item">

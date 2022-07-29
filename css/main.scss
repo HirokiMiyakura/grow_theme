@@ -386,6 +386,12 @@ section {
 	}
 }
 
+@media screen and (max-width: 1000px) {
+	section {
+		padding: 0 21px;
+	}
+}
+
 .campaign-container {
 	margin-top: 4em;
 	display: flex;
@@ -824,6 +830,45 @@ footer {
 		text-align: center;
 		background-color: #eee;
 		padding: 10px 0;
+	}
+}
+
+// システムページ
+
+.system-container {
+	h4 {
+		font-size: 1.5rem;
+		margin: 2rem 0 1.25rem;
+		text-align: center;
+	}
+	ul {
+		list-style-type: none;
+		margin-top: 2rem;
+		li {
+			line-height: 2;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.system-container {
+		h3 {
+			text-align: left;
+		}
+		h4 {
+			font-size: 1rem;
+			margin: 1.5rem 0 0;
+			text-align: left;
+		}
+		p {
+			text-align: left;
+		}
+		ul {
+			margin-top: 1.5rem;
+			li {
+				line-height: 2;
+			}
+		}
 	}
 }
 
