@@ -58,6 +58,13 @@
           </a>
         </p>
       </div>
+      <div class="sponcor-container__item">
+        <p class="sponcor">
+          <a href="https://exemplar377.com/" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/sponcor/highvoltage.jpg" alt="" />
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </section>
