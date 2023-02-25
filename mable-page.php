@@ -39,9 +39,9 @@ get_header(); ?>
           </tr>
           <tr>
             <td>¥3,300</td>
-            <td class="popular">¥6,600</td>
-            <td>¥8,800</td>
-            <td>¥11,000</td>
+            <td class="popular">¥7,200</td>
+            <td>¥9,400</td>
+            <td>¥11,600</td>
             <td>¥15,000</td>
           </tr>
           <tr>
