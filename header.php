@@ -55,7 +55,6 @@ conditionizr.config({
 			<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
 			<li><a href="<?php echo home_url(); ?>/news">お知らせ一覧</a></li>
 			<li><a href="<?php echo home_url(); ?>/mable">MABLE</a></li>
-			<li><a href="<?php echo home_url(); ?>/locoreha">ロコリハ</a></li>
 			<li><a href="<?php echo home_url(); ?>/company">会社情報・アクセス</a></li>
 			<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
 		</ul>
@@ -67,7 +66,6 @@ conditionizr.config({
 					<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
 					<li><a href="<?php echo home_url(); ?>/news">お知らせ</a></li>
 					<li><a href="<?php echo home_url(); ?>/mable">MABLE</a></li>
-					<li><a href="<?php echo home_url(); ?>/locoreha">ロコリハ</a></li>
 					<li><a href="<?php echo home_url(); ?>/company">会社情報・アクセス</a></li>
 					<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
 				</ul>

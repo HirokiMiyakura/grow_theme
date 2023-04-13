@@ -60,7 +60,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/img/mable/mable_logo.png" alt="mable">
         </div>
       </div>
-      <div class="outer-container">
+      <!-- <div class="outer-container">
         <div class="business-left">
           <img width="90%" src="<?php echo get_template_directory_uri(); ?>/img/top/locoreha_logo.jpg" alt="locoreha">
         </div>
@@ -72,7 +72,7 @@
           </p>
           <p class="more fr"><a href="<?php echo home_url(); ?>/locoreha">詳しく見る</a></p>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
   <section>

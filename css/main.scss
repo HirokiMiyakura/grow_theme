@@ -1136,3 +1136,42 @@ footer {
 		display: none;
 	}
 }
+
+.wrap {
+	position: relative;
+}
+
+/* ----- 背景用の動画ファイル ----- */
+#bg-video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100vw;
+	height: auto;
+	z-index: -100;
+	background: url('poster.jpg') no-repeat;
+	background-size: cover;
+}
+/* ----- 背景の上に表示させたいコンテンツ ----- */
+.header-title {
+	position: relative; /*必ず必要*/
+	z-index: 2; /*必ず必要*/
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+}
+
+/* ----- グラデーションオーバーレイ ----- */
+.wrap {
+	// height: 100vh;
+	// background: linear-gradient(
+	// 	-45deg,
+	// 	rgba(4, 114, 124, 0.4),
+	// 	rgba(17, 66, 99, 0.6)
+	// );
+}
